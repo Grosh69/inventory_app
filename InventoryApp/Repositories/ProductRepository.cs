@@ -1,4 +1,5 @@
 ﻿using InventoryApp.Data;
+using InventoryApp.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace InventoryApp.Repositories
@@ -9,6 +10,10 @@ namespace InventoryApp.Repositories
         public ProductRepository(AppDbContext context)
         {
             _context = context;
+        }
+        public async Task<IEnumerable<Product>> GetAllAsync()
+        {
+            return await _context.Products.ToListAsync();
         }
     }
 }
