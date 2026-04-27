@@ -15,5 +15,10 @@ namespace InventoryApp.Repositories
         {
             return await _context.Products.ToListAsync();
         }
+        public async Task AddAsync(Product product)
+        {
+            await _context.Products.AddAsync(product);
+            await _context.SaveChangesAsync();
+        }
     }
 }
