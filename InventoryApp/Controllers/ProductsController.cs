@@ -1,4 +1,5 @@
-﻿using InventoryApp.DTOs;
+﻿using AutoMapper;
+using InventoryApp.DTOs;
 using InventoryApp.Models;
 using InventoryApp.Repositories;
 using Microsoft.AspNetCore.Mvc;
@@ -11,9 +12,12 @@ namespace InventoryApp.Controllers
     public class ProductsController : ControllerBase
     {
         private readonly IProductRepository _repository;
-        public ProductsController(IProductRepository repository)
+        private readonly IMapper _mapper;
+
+        public ProductsController(IProductRepository repository, IMapper mapper)
         {
             _repository = repository;
+            _mapper = mapper;
         }
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
@@ -24,16 +28,10 @@ namespace InventoryApp.Controllers
         [HttpPost]
         public async Task<ActionResult<Product>> CreateProduct(CreateProductDto productDto)
         {
-            var product = new Product
-            {
-                Name = productDto.Name,
-                Description = productDto.Description,
-                Price = productDto.Price,
-                Quantity = productDto.Quantity
-            };
+            // A sok soros másolgatás helyett csak ennyi:
+            var product = _mapper.Map<Product>(productDto);
 
             await _repository.AddAsync(product);
-
             return CreatedAtAction(nameof(GetProducts), new { id = product.Id }, product);
         }
         [HttpGet("{id}")]
