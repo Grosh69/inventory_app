@@ -56,7 +56,6 @@ namespace InventoryApp.Controllers
             return Ok(results);
         }
         [HttpPut("{id}")]
-        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateProduct(int id, UpdateProductDto updateDto)
         {
             if (id != updateDto.Id) return BadRequest("ID mismatch");
@@ -70,5 +69,11 @@ namespace InventoryApp.Controllers
 
             return NoContent();
         }
+        /* [HttpGet("throw-error")]
+         public IActionResult ThrowError()
+         {
+             // Szándékosan dobunk egy általános hibát
+             throw new Exception("Ez egy teszt hiba a Middleware teszteléséhez!");
+         } */
     }
 }
