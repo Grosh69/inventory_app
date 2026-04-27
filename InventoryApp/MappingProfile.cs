@@ -7,10 +7,12 @@ public class MappingProfile : Profile
 {
     public MappingProfile()
     {
-        // Product entitás -> CreateProductDto (és vissza)
-        CreateMap<CreateProductDto, Product>();
+        CreateMap<Category, CategoryDto>().ReverseMap();
 
-        // Product entitás -> UpdateProductDto (és vissza)
+        CreateMap<CreateProductDto, Product>();
         CreateMap<UpdateProductDto, Product>();
+
+        CreateMap<Product, ProductDto>()
+            .ForMember(dest => dest.CategoryName, opt => opt.MapFrom(src => src.Category.Name));
     }
 }

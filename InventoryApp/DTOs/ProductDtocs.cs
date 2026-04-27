@@ -1,19 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace InventoryApp.DTOs
+﻿namespace InventoryApp.DTOs
 {
-    public class CreateProductDto
+    public class ProductDto
     {
-        [Required]
-        [StringLength(100)]
+        public int Id { get; set; }
         public string Name { get; set; } = string.Empty;
         public string? Description { get; set; }
-
-        [Range(0.01, 1000000)]
         public decimal Price { get; set; }
-
-        [Range(0, 10000)]
         public int Quantity { get; set; }
         public int CategoryId { get; set; }
+        public string CategoryName { get; set; } = string.Empty; 
     }
 }
