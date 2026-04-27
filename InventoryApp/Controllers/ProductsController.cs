@@ -36,5 +36,21 @@ namespace InventoryApp.Controllers
 
             return CreatedAtAction(nameof(GetProducts), new { id = product.Id }, product);
         }
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Product>> GetProduct(int id)
+        {
+            var product = await _repository.GetByIdAsync(id);
+            if (product == null) return NotFound();
+            return Ok(product);
+        }
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteProduct(int id)
+        {
+            var product = await _repository.GetByIdAsync(id);
+            if (product == null) return NotFound();
+
+            await _repository.DeleteAsync(product);
+            return NoContent();
+        }
     }
 }

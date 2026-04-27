@@ -6,5 +6,7 @@ namespace InventoryApp.Repositories
     {
         Task<IEnumerable<Product>> GetAllAsync();
         Task AddAsync(Product product);
+        Task DeleteAsync(Product product);
+        Task<Product?> GetByIdAsync(int id);
     }
 }
