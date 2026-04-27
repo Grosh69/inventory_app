@@ -138,3 +138,4 @@ D:\Projektek\Inventoryapp\inventory_app\InventoryApp\obj\Debug\net8.0\refint\Inv
 D:\Projektek\Inventoryapp\inventory_app\InventoryApp\obj\Debug\net8.0\InventoryApp.pdb
 D:\Projektek\Inventoryapp\inventory_app\InventoryApp\obj\Debug\net8.0\InventoryApp.genruntimeconfig.cache
 D:\Projektek\Inventoryapp\inventory_app\InventoryApp\obj\Debug\net8.0\ref\InventoryApp.dll
+D:\Projektek\Inventoryapp\inventory_app\InventoryApp\obj\Debug\net8.0\InventoryApp.sourcelink.json
