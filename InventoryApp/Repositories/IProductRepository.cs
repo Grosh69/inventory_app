@@ -8,5 +8,6 @@ namespace InventoryApp.Repositories
         Task AddAsync(Product product);
         Task DeleteAsync(Product product);
         Task<Product?> GetByIdAsync(int id);
+        Task<IEnumerable<Product>> SearchByNameAsync(string name);
     }
 }

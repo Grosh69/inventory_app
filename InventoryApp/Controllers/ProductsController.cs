@@ -52,5 +52,11 @@ namespace InventoryApp.Controllers
             await _repository.DeleteAsync(product);
             return NoContent();
         }
+        [HttpGet("search/{name}")]
+        public async Task<ActionResult<IEnumerable<Product>>> Search(string name)
+        {
+            var results = await _repository.SearchByNameAsync(name);
+            return Ok(results);
+        }
     }
 }
