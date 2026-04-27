@@ -28,7 +28,6 @@ namespace InventoryApp.Controllers
         [HttpPost]
         public async Task<ActionResult<Product>> CreateProduct(CreateProductDto productDto)
         {
-            // A sok soros másolgatás helyett csak ennyi:
             var product = _mapper.Map<Product>(productDto);
 
             await _repository.AddAsync(product);
@@ -57,20 +56,19 @@ namespace InventoryApp.Controllers
             return Ok(results);
         }
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateProduct(int id, UpdateProductDto updateDto) 
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateProduct(int id, UpdateProductDto updateDto)
         {
             if (id != updateDto.Id) return BadRequest("ID mismatch");
 
             var product = await _repository.GetByIdAsync(id);
             if (product == null) return NotFound();
-            product.Name = updateDto.Name;
-            product.Description = updateDto.Description;
-            product.Price = updateDto.Price;
-            product.Quantity = updateDto.Quantity;
+
+            _mapper.Map(updateDto, product);
 
             await _repository.UpdateAsync(product);
 
-            return NoContent(); 
+            return NoContent();
         }
     }
 }
