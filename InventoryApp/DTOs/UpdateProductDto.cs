@@ -18,6 +18,7 @@ namespace InventoryApp.DTOs
 
         [Range(0, 10000)]
         public int Quantity { get; set; }
+        public int CategoryId { get; set; }
     }
 }
 

@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\Migrations\\20260427110139_AddCategoryTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260427110139_AddCategoryTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|d:\\projektek\\inventoryapp\\inventory_app\\inventoryapp\\dtos\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|solutionrelative:dtos\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|d:\\projektek\\inventoryapp\\inventory_app\\inventoryapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|d:\\projektek\\inventoryapp\\inventory_app\\inventoryapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|d:\\projektek\\inventoryapp\\inventory_app\\inventoryapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|d:\\projektek\\inventoryapp\\inventory_app\\inventoryapp\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|d:\\projektek\\inventoryapp\\inventory_app\\inventoryapp\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|d:\\projektek\\inventoryapp\\inventory_app\\inventoryapp\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|d:\\projektek\\inventoryapp\\inventory_app\\inventoryapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|d:\\projektek\\inventoryapp\\inventory_app\\inventoryapp\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|solutionrelative:middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|d:\\projektek\\inventoryapp\\inventory_app\\inventoryapp\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|solutionrelative:mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|d:\\projektek\\inventoryapp\\inventory_app\\inventoryapp\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,12 +27,48 @@
       "RelativeMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|solutionrelative:dtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|d:\\projektek\\inventoryapp\\inventory_app\\inventoryapp\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|solutionrelative:repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|d:\\projektek\\inventoryapp\\inventory_app\\inventoryapp\\dtos\\productdtocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|solutionrelative:dtos\\productdtocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|d:\\projektek\\inventoryapp\\inventory_app\\inventoryapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|d:\\projektek\\inventoryapp\\inventory_app\\inventoryapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|d:\\projektek\\inventoryapp\\inventory_app\\inventoryapp\\dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|solutionrelative:dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|d:\\projektek\\inventoryapp\\inventory_app\\inventoryapp\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|solutionrelative:dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|d:\\projektek\\inventoryapp\\inventory_app\\inventoryapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|d:\\projektek\\inventoryapp\\inventory_app\\inventoryapp\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|solutionrelative:repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|d:\\projektek\\inventoryapp\\inventory_app\\inventoryapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\Migrations\\20260427110139_AddCategoryTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260427110139_AddCategoryTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|d:\\projektek\\inventoryapp\\inventory_app\\inventoryapp\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|d:\\projektek\\inventoryapp\\inventory_app\\inventoryapp\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBE2593-EEF1-4C1A-B8EF-1F41083EE5BC}|InventoryApp.csproj|solutionrelative:middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\Migrations\\20260427075549_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,6 +87,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CreateCategoryDto.cs",
+              "DocumentMoniker": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\DTOs\\CreateCategoryDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CreateCategoryDto.cs",
+              "ToolTip": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\DTOs\\CreateCategoryDto.cs",
+              "RelativeToolTip": "DTOs\\CreateCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T11:45:28.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwBMAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T11:38:25.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductDtocs.cs",
+              "DocumentMoniker": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\DTOs\\ProductDtocs.cs",
+              "RelativeDocumentMoniker": "DTOs\\ProductDtocs.cs",
+              "ToolTip": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\DTOs\\ProductDtocs.cs",
+              "RelativeToolTip": "DTOs\\ProductDtocs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T11:09:51.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "MappingProfile.cs",
+              "ToolTip": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\MappingProfile.cs",
+              "RelativeToolTip": "MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T11:06:30.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\DTOs\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CategoryDto.cs",
+              "ToolTip": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\DTOs\\CategoryDto.cs",
+              "RelativeToolTip": "DTOs\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T11:05:28.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "20260427110139_AddCategoryTable.cs",
               "DocumentMoniker": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\Migrations\\20260427110139_AddCategoryTable.cs",
               "RelativeDocumentMoniker": "Migrations\\20260427110139_AddCategoryTable.cs",
@@ -79,20 +164,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Models\\Category.cs",
               "ToolTip": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\Models\\Category.cs",
               "RelativeToolTip": "Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-27T10:57:06.926Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "README.md",
               "DocumentMoniker": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\README.md",
               "RelativeDocumentMoniker": "README.md",
@@ -105,20 +190,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "UpdateProductDto.cs",
               "DocumentMoniker": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\DTOs\\UpdateProductDto.cs",
               "RelativeDocumentMoniker": "DTOs\\UpdateProductDto.cs",
               "ToolTip": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\DTOs\\UpdateProductDto.cs",
               "RelativeToolTip": "DTOs\\UpdateProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwBQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-27T09:51:49.405Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "ExceptionMiddleware.cs",
               "DocumentMoniker": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\Middleware\\ExceptionMiddleware.cs",
               "RelativeDocumentMoniker": "Middleware\\ExceptionMiddleware.cs",
@@ -131,59 +216,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "CreateProductDto.cs",
               "DocumentMoniker": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\DTOs\\CreateProductDto.cs",
               "RelativeDocumentMoniker": "DTOs\\CreateProductDto.cs",
               "ToolTip": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\DTOs\\CreateProductDto.cs",
               "RelativeToolTip": "DTOs\\CreateProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-27T09:05:59.14Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
               "ToolTip": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAcwEcAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-27T08:58:04.464Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
               "ToolTip": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\Repositories\\ProductRepository.cs",
               "RelativeToolTip": "Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAmwBwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwC4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-27T08:07:51.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\Repositories\\IProductRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IProductRepository.cs",
               "ToolTip": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\Repositories\\IProductRepository.cs",
               "RelativeToolTip": "Repositories\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-27T08:07:18.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "20260427075549_InitialCreate.cs",
               "DocumentMoniker": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\Migrations\\20260427075549_InitialCreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20260427075549_InitialCreate.cs",
@@ -196,39 +281,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-27T07:35:20.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
               "ToolTip": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-27T07:26:02.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
               "ToolTip": "D:\\Projektek\\Inventoryapp\\inventory_app\\InventoryApp\\Models\\Product.cs",
               "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-27T07:25:09.853Z",
               "EditorCaption": ""

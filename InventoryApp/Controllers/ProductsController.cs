@@ -20,10 +20,21 @@ namespace InventoryApp.Controllers
             _mapper = mapper;
         }
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
+        public async Task<ActionResult<IEnumerable<ProductDto>>> GetProducts()
         {
             var products = await _repository.GetAllAsync();
-            return Ok(products);
+            var productsDto = _mapper.Map<IEnumerable<ProductDto>>(products);
+            return Ok(productsDto);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<ProductDto>> GetProduct(int id)
+        {
+            var product = await _repository.GetByIdAsync(id);
+            if (product == null) return NotFound();
+
+            var productDto = _mapper.Map<ProductDto>(product);
+            return Ok(productDto);
         }
         [HttpPost]
         public async Task<ActionResult<Product>> CreateProduct(CreateProductDto productDto)
@@ -33,13 +44,7 @@ namespace InventoryApp.Controllers
             await _repository.AddAsync(product);
             return CreatedAtAction(nameof(GetProducts), new { id = product.Id }, product);
         }
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Product>> GetProduct(int id)
-        {
-            var product = await _repository.GetByIdAsync(id);
-            if (product == null) return NotFound();
-            return Ok(product);
-        }
+
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProduct(int id)
         {
@@ -50,10 +55,11 @@ namespace InventoryApp.Controllers
             return NoContent();
         }
         [HttpGet("search/{name}")]
-        public async Task<ActionResult<IEnumerable<Product>>> Search(string name)
+        public async Task<ActionResult<IEnumerable<ProductDto>>> Search(string name)
         {
-            var results = await _repository.SearchByNameAsync(name);
-            return Ok(results);
+            var products = await _repository.SearchByNameAsync(name);
+            var resultsDto = _mapper.Map<IEnumerable<ProductDto>>(products);
+            return Ok(resultsDto);
         }
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateProduct(int id, UpdateProductDto updateDto)
