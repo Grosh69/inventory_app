@@ -58,5 +58,21 @@ namespace InventoryApp.Controllers
             var results = await _repository.SearchByNameAsync(name);
             return Ok(results);
         }
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateProduct(int id, UpdateProductDto updateDto) 
+        {
+            if (id != updateDto.Id) return BadRequest("ID mismatch");
+
+            var product = await _repository.GetByIdAsync(id);
+            if (product == null) return NotFound();
+            product.Name = updateDto.Name;
+            product.Description = updateDto.Description;
+            product.Price = updateDto.Price;
+            product.Quantity = updateDto.Quantity;
+
+            await _repository.UpdateAsync(product);
+
+            return NoContent(); 
+        }
     }
 }

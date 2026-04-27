@@ -39,8 +39,8 @@ namespace InventoryApp.Repositories
         public async Task<IEnumerable<Product>> SearchByNameAsync(string name)
         {
             return await _context.Products
-                .Where(p => p.Name.Contains(name))
-                .ToListAsync();
+        .Where(p => p.Name.ToLower().Contains(name.ToLower()))
+        .ToListAsync();
         }
     }
 }
